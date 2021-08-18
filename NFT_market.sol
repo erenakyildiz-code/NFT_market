@@ -135,7 +135,7 @@ contract auction{
         //* for (uint256 i = 0; i < userNFTS[msg.sender].lenght; i++){
         //* if(userNFTS[msg.sender][i] == nftAddress) {
     //*      delete userNFTS[msg.sender][i]; // this leaves a gap, you need to push everything again which is a big problem for gas prices.
-    //*      userNFTS[msg.sender][i] = userNFTS[msg.sender][userNFTS[msg.sender].lenght]; // this also fixes the problem.
+    //*      userNFTS[msg.sender][i] = userNFTS[msg.sender][userNFTS[msg.sender].lenght]; // this also fixes the problem. NOT TESTED DONT USE WITHOUT TESTING
     //*      delete userNFTS[msg.sender[userNFTS[msg.sender].lenght]];
         //*}
     //* }
